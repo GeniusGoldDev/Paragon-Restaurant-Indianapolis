@@ -1,0 +1,396 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  
+  div.right-column {
+    margin-left: 350px !important;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  .hours-of-operation {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .header-banner {
+    background: url('../images/restaurant.jpg') no-repeat center;
+    background-size: cover;
+    height: 250px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .header-content h1 {
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    margin-left: 2.5rem;
+    text-transform: uppercase;
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+  }
+  
+  .header-content p {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-left: 2.5rem;
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+  }
+  
+  .navbar {
+    max-width: 900px;
+    margin: auto;
+    background: linear-gradient(to bottom, #5791c5, #375b77, #070e14);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    border-radius: 1.5rem;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 60px;
+    align-items: center;
+    margin-top: -20px;
+  }
+  
+  .navbar a {
+    color: white;
+    margin: 0 1.5rem;
+    text-decoration: none !important;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .navbar a:hover {
+    background: #ffffff;
+    color: #1e4b96;
+  }
+  
+
+  @media (max-width: 768px) {
+    /*  */
+
+    div.right-column {
+        margin-left: 0 !important;
+    }
+    .navbar a {
+        font-size: 0.8rem !important; 
+        padding: 0.5rem 0.8rem;
+        text-align: center; 
+    }
+}
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+    color: black;
+  }
+  
+  .left-column{
+    width: 45%;
+  }
+  
+  .bg_text {
+    background: linear-gradient(to bottom, #0c0a09, #2e2b24, #433d31);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 30px;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    padding-top: 20px;
+  }
+  
+  .container.special h2{
+    background: linear-gradient(to bottom, #0c0a09, #2e2b24, #433d31);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 30px;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    padding-top: 20px;
+  }
+
+  .right-column h2 {
+    background: linear-gradient(to bottom, #0c0a09, #2e2b24, #433d31);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 30px;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    padding-top: 20px;
+  }
+
+  .right-column p {
+    margin: 1rem 0;
+    line-height: 1.6;
+  }
+  
+  .left-column p, .left-column ul {
+    margin: 1rem 0;
+    line-height: 1.6;
+  }
+
+  
+  .left-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .left-column li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .special-banner {
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    margin-left: 150px;
+    margin-bottom: 100px;
+  }
+
+  @media (max-width: 768px) {
+    .special-banner {
+        width: 100%; 
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    section.container {
+        display: block !important;
+    }
+}
+  
+  .special-banner img {
+    position: absolute;
+    left: 0;
+  }
+  
+  .special-banner h3 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .special-banner p {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .special-banner h4 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  iframe {
+    display: block;
+    margin: 1rem auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    background: linear-gradient(to bottom, #333, #000);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 0.9rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  @media (max-width:768px) {
+    .footer {
+    }
+  }
+  
+  .left-column h1 {
+    font-size: 2.5rem;
+    margin: 0 0;
+    color: #000000;
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+  }
+  
+  .left-column p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0;
+    color: #000000;
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+  }
+  
+  .h_p1 {
+    margin-left: 30px !important;
+  }
+  
+  .h_ul {
+    margin-left: 50px !important;
+  }
+  
+  .r_p1 {
+    font-size: 2.5rem;
+    margin: 0 0;
+    color: #000000;
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    margin-left: 10px !important;
+  }
+  
+  .specials {
+    color: black;
+    margin-top: 20px;
+  }
+  
+  .s_text1 .p1 {
+    font-size: 36px;
+    color: #649632;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 0;
+  }
+  
+  .s_text1 p {
+    font-size: 14px;
+    color: #837669;
+  }
+  
+  .s_text2 .p1 {
+    font-size: 36px;
+    color: #649632;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 0;
+    text-decoration: underline;
+  }
+  
+  .s_text2 p {
+    font-size: 24px;
+    color: #000000;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  
+  .senior-discount-note {
+    font-weight: bold;
+  }
+  
+  .contacts, .contact {
+    color: black;
+  }
+  
+  .contact {
+    width: 100%;
+  }
+  
+  .contacts {
+    background-color: #cccccc;
+    width: 100%;
+    padding: 10px 10px;
+    padding-bottom: 100px !important;
+  }
+
+  @media (max-width: 768px) {
+    .contacts {
+        width: 95%;
+    }
+  }
+  
+  .contact h2 {
+    background: linear-gradient(to bottom, #0c0a09, #2e2b24, #433d31);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 30px;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    padding-top: 20px;
+  }
+  
+  .form-group label {
+    width: 40% !important;
+  }
+  
+  .form-group input, textarea {
+    width: 60% !important;
+    float: right;
+    margin-right: 50px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    
+  
+    .left-column {
+      width: 100%;
+    }
+  
+    .navbar {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .navbar a {
+      margin: 0 0.5rem;
+      font-size: 1rem;
+    }
+  
+    .header-content h1 {
+      font-size: 2rem;
+      margin-left: 1.5rem;
+    }
+  
+    .header-content p {
+      font-size: 1rem;
+      margin-left: 1.5rem;
+    }
+  
+    .container.special h2,
+  
+    .special-banner {
+      width: 100%;
+      margin: 0;
+    }
+  
+    .form-group label {
+      width: 100% !important;
+    }
+  
+    .form-group input, textarea {
+      width: 100% !important;
+      float: none;
+      margin-right: 0;
+    }
+  }
+  
